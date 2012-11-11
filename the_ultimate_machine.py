@@ -1,15 +1,6 @@
 #!/usr/bin/env python
 # encoding: utf=8
 
-# Welcome to the_ultimate_machine.py
-# the_ultimate_machine.py is a deeply meta music creation script / framework.
-# It runs its OWN TEXT through the algorithm that it defines.  
-# To use the_ultimate_machine.py, simple replace the below parsing code with code of your own
-# Note that to run the_ultimate_machine.py properly, you should remove ALL comments, 
-# except for the shabang and encoding, and compact the code as much as possible.  
-# This version uses abjad and lilypond to create scores.  
-# You may use any midi, audio, or score-creation libraries, so long as the script only points to itself.
-
 import os
 from abjad import *
 path = os.path.realpath(__file__)
